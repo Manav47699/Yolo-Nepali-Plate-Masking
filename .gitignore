@@ -5,3 +5,11 @@ mausam_ko_kaam
 manav_ko_kaam
 Kshitiz_ko_kaam
 nepali_dal_bhat_dataset
+
+extra stuff
+
+extra stuff/
+*.zip
+*.mp4
+venv/
+__pycache__/
