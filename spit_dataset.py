@@ -3,8 +3,8 @@ import random
 import shutil
 
 # Configurations matching your exact folder names
-SOURCE_DIR = "project-2-at-2026-08-17-14-34-753e6103"  # Extracted folder name
-OUTPUT_DIR = "nepali_dal_bhat_dataset"                 # Output directory
+SOURCE_DIR = "nepali_dal_bhat_dataset"  # Folder containing merged images and labels
+OUTPUT_DIR = "final_yolo_model_dataset"  # Target directory for YOLO train/val structure
 VAL_RATIO = 0.2                                         # 20% validation split
 
 images_dir = os.path.join(SOURCE_DIR, "images")

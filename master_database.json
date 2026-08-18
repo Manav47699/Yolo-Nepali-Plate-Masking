@@ -1,0 +1,3692 @@
+{
+  "foods": [
+    {
+      "id": "bhat",
+      "name": "Cooked Rice",
+      "other_names": ["rice", "bhat", "bhaat", "chamal", "chamal ko bhat", "भात", "चामल"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.30,
+        "protein": 0.027,
+        "carbs": 0.282,
+        "fat": 0.003
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "dal",
+      "name": "Cooked Lentils",
+      "other_names": ["dal", "daal", "dhal", "masuro dal", "musuro", "lentils", "दाल", "मसुरो"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.16,
+        "protein": 0.090,
+        "carbs": 0.201,
+        "fat": 0.004
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "sabji",
+      "name": "Vegetable Sabji",
+      "other_names": ["sabji", "sabzi", "tarkari", "tarkari ko jhol", "vegetable curry", "vegetable", "तरकारी", "सब्जी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.75,
+        "protein": 0.020,
+        "carbs": 0.100,
+        "fat": 0.030
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "dhido",
+      "name": "Dhido",
+      "other_names": ["dhido", "dhindo", "dhido", "ढिँडो", "ढिडो", "ढिंडो"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.10,
+        "protein": 0.025,
+        "carbs": 0.230,
+        "fat": 0.010
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "chiura",
+      "name": "Beaten Rice",
+      "other_names": ["chiura", "chura", "poha", "beaten rice", "flattened rice", "rice flakes", "चिउरा", "पोहा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.50,
+        "protein": 0.070,
+        "carbs": 0.760,
+        "fat": 0.007
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "roti",
+      "name": "Roti",
+      "other_names": ["roti", "chapati", "chapati roti", "atta roti", "रोटी", "चपाती"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 2.97,
+        "protein": 0.105,
+        "carbs": 0.500,
+        "fat": 0.045
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "maize",
+      "name": "Maize",
+      "other_names": ["corn", "maize", "makai", "makaiko", "मकै", "मकैको"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.42,
+        "protein": 0.091,
+        "carbs": 0.742,
+        "fat": 0.036
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "millet",
+      "name": "Finger Millet",
+      "other_names": ["ragi", "kodo", "finger millet", "kodo millet", "kodo ko pitho", "कोदो", "रागी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.28,
+        "protein": 0.073,
+        "carbs": 0.720,
+        "fat": 0.013
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "buckwheat",
+      "name": "Buckwheat",
+      "other_names": ["phapar", "buckwheat", "phapar ko pitho", "फापर", "फापरको पिठो"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.43,
+        "protein": 0.133,
+        "carbs": 0.710,
+        "fat": 0.034
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "potato",
+      "name": "Potato",
+      "other_names": ["alu", "aalu", "aloo", "potato", "आलु", "आलू"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.87,
+        "protein": 0.019,
+        "carbs": 0.201,
+        "fat": 0.001
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "sweet_potato",
+      "name": "Sweet Potato",
+      "other_names": ["sweet potato", "sakharkhanda", "sakhar khand", "शखरखण्ड", "सखरखण्ड"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.86,
+        "protein": 0.016,
+        "carbs": 0.201,
+        "fat": 0.001
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "other_names": ["cauliflower", "kauli", "phool kauli", "फूलकोबी", "काउली"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.25,
+        "protein": 0.019,
+        "carbs": 0.050,
+        "fat": 0.003
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "other_names": ["cabbage", "bandakopi", "patta gobhi", "बन्दाकोपी", "बन्दा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.25,
+        "protein": 0.013,
+        "carbs": 0.059,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "other_names": ["tomato", "golbheda", "golbhed", "गोलभेडा", "गोलभेंडा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.18,
+        "protein": 0.009,
+        "carbs": 0.039,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "onion",
+      "name": "Onion",
+      "other_names": ["onion", "pyaj", "pyaaj", "प्याज"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.40,
+        "protein": 0.011,
+        "carbs": 0.093,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "other_names": ["garlic", "lasun", "lahsun", "लसुन"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.49,
+        "protein": 0.064,
+        "carbs": 0.331,
+        "fat": 0.005
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "other_names": ["ginger", "aduwa", "adrak", "अदुवा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.80,
+        "protein": 0.018,
+        "carbs": 0.180,
+        "fat": 0.008
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "green_peas",
+      "name": "Green Peas",
+      "other_names": ["peas", "green peas", "kerau", "matar", "केराउ", "मटर"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.81,
+        "protein": 0.054,
+        "carbs": 0.145,
+        "fat": 0.004
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "other_names": ["carrot", "gajar", "गाजर"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.41,
+        "protein": 0.009,
+        "carbs": 0.096,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "radish",
+      "name": "Radish",
+      "other_names": ["radish", "mula", "muli", "white radish", "मूला", "मुला"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.16,
+        "protein": 0.007,
+        "carbs": 0.034,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "other_names": ["cucumber", "kakro", "kakadi", "काक्रो", "ककडी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.15,
+        "protein": 0.007,
+        "carbs": 0.036,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "bitter_gourd",
+      "name": "Bitter Gourd",
+      "other_names": ["bitter gourd", "bitter melon", "karela", "karela ko tarkari", "करेला"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.17,
+        "protein": 0.010,
+        "carbs": 0.037,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "bottle_gourd",
+      "name": "Bottle Gourd",
+      "other_names": ["bottle gourd", "lauka", "lau", "ghiraula", "लौका", "घिरौंला"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.14,
+        "protein": 0.006,
+        "carbs": 0.033,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "other_names": ["pumpkin", "farsi", "pharsi", "फर्सी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.26,
+        "protein": 0.010,
+        "carbs": 0.067,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "chayote",
+      "name": "Chayote",
+      "other_names": ["chayote", "iskus", "iskush", "इस्कुस", "इस्कुश"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.19,
+        "protein": 0.008,
+        "carbs": 0.045,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "okra",
+      "name": "Okra",
+      "other_names": ["okra", "lady finger", "bhindi", "bhindi", "भिन्डी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.33,
+        "protein": 0.019,
+        "carbs": 0.074,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "eggplant",
+      "name": "Eggplant",
+      "other_names": ["eggplant", "brinjal", "baigan", "bhanta", "बैंगन", "भन्टा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.25,
+        "protein": 0.010,
+        "carbs": 0.059,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "mustard_greens",
+      "name": "Mustard Greens",
+      "other_names": ["mustard greens", "rayo ko saag", "rayo saag", "rai saag", "रायोको साग", "रायो साग"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.27,
+        "protein": 0.028,
+        "carbs": 0.046,
+        "fat": 0.004
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "other_names": ["spinach", "palungo", "palung", "palungo saag", "पालुङ्गो", "पालुङ्गो साग"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.23,
+        "protein": 0.029,
+        "carbs": 0.036,
+        "fat": 0.004
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "gundruk",
+      "name": "Gundruk",
+      "other_names": ["gundruk", "gundruk ko jhol", "fermented leafy greens", "गुन्द्रुक"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.45,
+        "protein": 0.035,
+        "carbs": 0.070,
+        "fat": 0.006
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "depends"
+      }
+    },
+
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "other_names": ["mushroom", "chyau", "chhyau", "च्याउ"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.22,
+        "protein": 0.031,
+        "carbs": 0.033,
+        "fat": 0.003
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "depends",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "depends"
+      }
+    },
+
+    {
+      "id": "green_beans",
+      "name": "Green Beans",
+      "other_names": ["green beans", "beans", "simi", "simi ko tarkari", "सिमी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.31,
+        "protein": 0.018,
+        "carbs": 0.070,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "broad_beans",
+      "name": "Broad Beans",
+      "other_names": ["broad beans", "bakulla", "bakulla ko tarkari", "बकुल्ला"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.88,
+        "protein": 0.079,
+        "carbs": 0.158,
+        "fat": 0.007
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "chickpeas",
+      "name": "Cooked Chickpeas",
+      "other_names": ["chickpeas", "chana", "kalo chana", "kabuli chana", "चना", "कालो चना"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.64,
+        "protein": 0.089,
+        "carbs": 0.274,
+        "fat": 0.026
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "soybean",
+      "name": "Soybean",
+      "other_names": ["soybean", "soy bean", "bhatmas", "bhatmaas", "भटमास"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 4.46,
+        "protein": 0.366,
+        "carbs": 0.303,
+        "fat": 0.200
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "black_lentil",
+      "name": "Black Lentil",
+      "other_names": ["black gram", "urad dal", "kalo dal", "maas ko dal", "मासको दाल", "कालो दाल"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.16,
+        "protein": 0.090,
+        "carbs": 0.201,
+        "fat": 0.004
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "mung_dal",
+      "name": "Mung Dal",
+      "other_names": ["mung dal", "moong dal", "green gram", "mug dal", "मुंग दाल", "मुग दाल"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.05,
+        "protein": 0.071,
+        "carbs": 0.191,
+        "fat": 0.004
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "egg",
+      "name": "Whole Egg",
+      "other_names": ["egg", "anda", "aanda", "kukhura ko anda", "अण्डा", "अन्डा"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 1.43,
+        "protein": 0.126,
+        "carbs": 0.007,
+        "fat": 0.095
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "other_names": ["chicken", "kukura", "kukura ko masu", "chicken masu", "कुखुरा", "कुखुराको मासु"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 1.57,
+        "protein": 0.321,
+        "carbs": 0.000,
+        "fat": 0.032
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "buffalo_meat",
+      "name": "Buffalo Meat",
+      "other_names": ["buff meat", "buffalo meat", "buff", "buff masu", "ranga ko masu", "भैंसीको मासु", "राँगाको मासु"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 1.60,
+        "protein": 0.280,
+        "carbs": 0.000,
+        "fat": 0.060
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "goat_meat",
+      "name": "Goat Meat",
+      "other_names": ["goat meat", "mutton", "khasi ko masu", "khasi", "खसीको मासु", "खसी"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 1.43,
+        "protein": 0.270,
+        "carbs": 0.000,
+        "fat": 0.030
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "fish",
+      "name": "Fish",
+      "other_names": ["fish", "machha", "machha ko masu", "माछा", "माछाको मासु"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 1.30,
+        "protein": 0.260,
+        "carbs": 0.000,
+        "fat": 0.030
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "milk",
+      "name": "Whole Milk",
+      "other_names": ["milk", "dudh", "doodh", "cow milk", "gai ko dudh", "दूध", "गाईको दूध"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.61,
+        "protein": 0.032,
+        "carbs": 0.048,
+        "fat": 0.033
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "curd",
+      "name": "Curd",
+      "other_names": ["curd", "yogurt", "dahi", "doi", "दही"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.61,
+        "protein": 0.035,
+        "carbs": 0.047,
+        "fat": 0.033
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "other_names": ["ghee", "ghi", "clarified butter", "घिउ", "घी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 8.76,
+        "protein": 0.000,
+        "carbs": 0.000,
+        "fat": 0.990
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "butter",
+      "name": "Butter",
+      "other_names": ["butter", "makhan", "मक्खन"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 7.17,
+        "protein": 0.009,
+        "carbs": 0.001,
+        "fat": 0.811
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "mustard_oil",
+      "name": "Mustard Oil",
+      "other_names": ["mustard oil", "sarso ko tel", "tori ko tel", "तोरीको तेल", "सरसोंको तेल"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 8.84,
+        "protein": 0.000,
+        "carbs": 0.000,
+        "fat": 1.000
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "banana",
+      "name": "Banana",
+      "other_names": ["banana", "kera", "kela", "केरा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.89,
+        "protein": 0.011,
+        "carbs": 0.228,
+        "fat": 0.003
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "apple",
+      "name": "Apple",
+      "other_names": ["apple", "syau", "syaau", "स्याउ"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.52,
+        "protein": 0.003,
+        "carbs": 0.138,
+        "fat": 0.002
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "orange",
+      "name": "Orange",
+      "other_names": ["orange", "suntala", "sunttala", "सुन्तला"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.47,
+        "protein": 0.009,
+        "carbs": 0.118,
+        "fat": 0.001
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+
+
+    {
+      "id": "guava",
+      "name": "Guava",
+      "other_names": ["guava", "amrud", "amrood", "amala", "अमरुद", "अमरूद"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.68,
+        "protein": 0.026,
+        "carbs": 0.143,
+        "fat": 0.010
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "papaya",
+      "name": "Papaya",
+      "other_names": ["papaya", "mewa", "papita", "पपैया", "मेवा"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.43,
+        "protein": 0.005,
+        "carbs": 0.109,
+        "fat": 0.003
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "peanuts",
+      "name": "Peanuts",
+      "other_names": ["peanut", "groundnut", "badam", "mungfali", "मूंगफली", "बदाम"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 5.67,
+        "protein": 0.259,
+        "carbs": 0.161,
+        "fat": 0.492
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "sesame",
+      "name": "Sesame Seeds",
+      "other_names": ["sesame", "til", "til ko dana", "तिल", "तिलको दाना"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 5.73,
+        "protein": 0.177,
+        "carbs": 0.235,
+        "fat": 0.500
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "chia_seed",
+      "name": "Chia Seeds",
+      "other_names": ["chia", "chia seed", "chia seeds", "चिया", "चिया सिड"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 4.86,
+        "protein": 0.165,
+        "carbs": 0.422,
+        "fat": 0.307
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "other_names": ["sugar", "chini", "cheeni", "चिनी", "चीनी"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.87,
+        "protein": 0.000,
+        "carbs": 1.000,
+        "fat": 0.000
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "salt",
+      "name": "Salt",
+      "other_names": ["salt", "nun", "namak", "नुन", "नमक"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.00,
+        "protein": 0.000,
+        "carbs": 0.000,
+        "fat": 0.000
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "tea_milk",
+      "name": "Milk Tea",
+      "other_names": ["milk tea", "chai", "chiya", "dudh chiya", "milk chai", "चिया", "दूध चिया"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.40,
+        "protein": 0.010,
+        "carbs": 0.060,
+        "fat": 0.012
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "depends",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "black_tea",
+      "name": "Black Tea",
+      "other_names": ["black tea", "tea", "kalo chiya", "chiya", "कालो चिया", "चिया"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 0.01,
+        "protein": 0.000,
+        "carbs": 0.002,
+        "fat": 0.000
+      },
+      "fitness_direction": "lose_weight",
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "depends",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "sel_roti",
+      "name": "Sel Roti",
+      "other_names": ["sel roti", "sel", "selroti", "सेल रोटी", "सेल"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 3.50,
+        "protein": 0.060,
+        "carbs": 0.550,
+        "fat": 0.120
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+
+    {
+      "id": "momo",
+      "name": "Momo",
+      "other_names": ["momo", "mo:mo", "dumpling", "momo dumpling", "मोमो"],
+      "veg_or_nonveg": "nonveg",
+      "nutrition_per_gram": {
+        "calories": 2.00,
+        "protein": 0.080,
+        "carbs": 0.220,
+        "fat": 0.080
+      },
+      "fitness_direction": "gain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "restricted",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "restricted"
+      }
+    },
+
+    {
+      "id": "dal_bhat",
+      "name": "Dal Bhat",
+      "other_names": ["dal bhat", "dal bhaat", "daal bhat", "दाल भात", "दालभात"],
+      "veg_or_nonveg": "veg",
+      "nutrition_per_gram": {
+        "calories": 1.25,
+        "protein": 0.035,
+        "carbs": 0.230,
+        "fat": 0.020
+      },
+      "fitness_direction": "maintain_weight",
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+    },
+    {
+      "id": "rayo_saag",
+
+      "name": "Rayo Saag",
+
+      "other_names": ["rayo saag", "rayo ko saag", "mustard greens", "mustard leaf", "रायो साग", "रायोको साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.27,
+        "protein": 0.028,
+        "carbs": 0.046,
+        "fat": 0.004
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "sisnu",
+
+      "name": "Sisnu",
+
+      "other_names": ["sisnu", "nettle", "stinging nettle", "nettle greens", "सिस्नु"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.42,
+        "protein": 0.060,
+        "carbs": 0.070,
+        "fat": 0.007
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "mula_saag",
+
+      "name": "Radish Greens",
+
+      "other_names": ["mula ko saag", "mula saag", "radish leaves", "radish greens", "मूलाको साग", "मुला साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.28,
+        "protein": 0.019,
+        "carbs": 0.060,
+        "fat": 0.001
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "tama",
+
+      "name": "Bamboo Shoot",
+
+      "other_names": ["tama", "bamboo shoot", "bans ko tusa", "bans ko tama", "तामा", "बाँसको तामा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.27,
+        "protein": 0.025,
+        "carbs": 0.053,
+        "fat": 0.003
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "sinki",
+
+      "name": "Sinki",
+
+      "other_names": ["sinki", "fermented radish taproot", "fermented radish", "सिन्की"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.30,
+        "protein": 0.012,
+        "carbs": 0.060,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "kinema",
+
+      "name": "Kinema",
+
+      "other_names": ["kinema", "fermented soybean", "fermented soybeans", "किनेमा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.00,
+        "protein": 0.180,
+        "carbs": 0.100,
+        "fat": 0.090
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "tarul",
+
+      "name": "Yam",
+
+      "other_names": ["yam", "tarul", "taro", "jungle yam", "तरुल"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.18,
+        "protein": 0.015,
+        "carbs": 0.280,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "taro",
+
+      "name": "Taro Root",
+
+      "other_names": ["taro", "arbi", "karkalo ko gantho", "karkalo", "अरबी", "कर्कलो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.12,
+        "protein": 0.015,
+        "carbs": 0.265,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "raw_banana",
+
+      "name": "Raw Banana",
+
+      "other_names": ["raw banana", "green banana", "kacho kera", "kacho kela", "काँचो केरा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.89,
+        "protein": 0.011,
+        "carbs": 0.230,
+        "fat": 0.003
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "jackfruit",
+
+      "name": "Jackfruit",
+
+      "other_names": ["jackfruit", "katahar", "katahal", "panas", "कटहर", "पानस"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.95,
+        "protein": 0.018,
+        "carbs": 0.235,
+        "fat": 0.006
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "lapsi",
+
+      "name": "Lapsi",
+
+      "other_names": ["lapsi", "Nepali hog plum", "hog plum", "लप्सी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.55,
+        "protein": 0.006,
+        "carbs": 0.130,
+        "fat": 0.003
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "amla",
+
+      "name": "Indian Gooseberry",
+
+      "other_names": ["amla", "amala", "amla fruit", "Indian gooseberry", "अमला", "अमला फल"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.44,
+        "protein": 0.009,
+        "carbs": 0.104,
+        "fat": 0.006
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "pomegranate",
+
+      "name": "Pomegranate",
+
+      "other_names": ["pomegranate", "anar", "anaar", "darim", "दारिम", "अनार"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.83,
+        "protein": 0.017,
+        "carbs": 0.190,
+        "fat": 0.012
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "litchi",
+
+      "name": "Litchi",
+
+      "other_names": ["litchi", "lychee", "lichi", "लिची"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.66,
+        "protein": 0.008,
+        "carbs": 0.167,
+        "fat": 0.004
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "watermelon",
+
+      "name": "Watermelon",
+
+      "other_names": ["watermelon", "tarbooj", "tarbuj", "तरबुजा", "तरबूज"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.30,
+        "protein": 0.006,
+        "carbs": 0.076,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "mango",
+
+      "name": "Mango",
+
+      "other_names": ["mango", "aap", "aam", "aap ko phal", "आँप", "आम"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.60,
+        "protein": 0.008,
+        "carbs": 0.150,
+        "fat": 0.004
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "pear",
+
+      "name": "Pear",
+
+      "other_names": ["pear", "naspati", "नासपाती"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.57,
+        "protein": 0.004,
+        "carbs": 0.152,
+        "fat": 0.001
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "lemon",
+
+      "name": "Lemon",
+
+      "other_names": ["lemon", "nibu", "nimbu", "kagati", "कागती", "निबु"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.29,
+        "protein": 0.011,
+        "carbs": 0.093,
+        "fat": 0.003
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "green_chili",
+
+      "name": "Green Chili",
+
+      "other_names": ["green chili", "green chilli", "hari khursani", "khursani", "हरियो खुर्सानी", "खुर्सानी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.40,
+        "protein": 0.020,
+        "carbs": 0.090,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "coriander",
+
+      "name": "Coriander Leaves",
+
+      "other_names": ["coriander", "coriander leaves", "dhaniya", "dhaniya ko saag", "धनियाँ", "धनियाँको साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.23,
+        "protein": 0.021,
+        "carbs": 0.037,
+        "fat": 0.005
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "mint",
+
+      "name": "Mint Leaves",
+
+      "other_names": ["mint", "mint leaves", "pudina", "पुदिना", "पुदिना साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.44,
+        "protein": 0.033,
+        "carbs": 0.081,
+        "fat": 0.007
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "green_bell_pepper",
+
+      "name": "Green Bell Pepper",
+
+      "other_names": ["green capsicum", "green bell pepper", "capsicum", "bhote khursani", "भेडे खुर्सानी", "क्याप्सिकम"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.20,
+        "protein": 0.009,
+        "carbs": 0.047,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "beetroot",
+
+      "name": "Beetroot",
+
+      "other_names": ["beetroot", "beet", "chukandar", "चुकन्दर"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.43,
+        "protein": 0.016,
+        "carbs": 0.100,
+        "fat": 0.002
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "turnip",
+
+      "name": "Turnip",
+
+      "other_names": ["turnip", "shaljam", "saljam", "shaljam", "शलजम"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.28,
+        "protein": 0.009,
+        "carbs": 0.063,
+        "fat": 0.001
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "allowed"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "bodi",
+
+      "name": "Yardlong Bean",
+
+      "other_names": ["bodi", "yardlong bean", "long bean", "cowpea", "बोडी", "बोडीको तरकारी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.47,
+        "protein": 0.030,
+        "carbs": 0.085,
+        "fat": 0.004
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "black_eyed_peas",
+
+      "name": "Black-Eyed Peas",
+
+      "other_names": ["black eyed peas", "cowpeas", "lobia", "bodi", "चौला", "लोबिया"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.16,
+        "protein": 0.079,
+        "carbs": 0.210,
+        "fat": 0.005
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "masuro",
+
+      "name": "Red Lentils",
+
+      "other_names": ["masuro", "masur", "red lentil", "red lentils", "मसुरो", "मसुर दाल"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.16,
+        "protein": 0.090,
+        "carbs": 0.201,
+        "fat": 0.004
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "rajma",
+
+      "name": "Kidney Beans",
+
+      "other_names": ["rajma", "kidney beans", "red kidney beans", "राजमा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.27,
+        "protein": 0.087,
+        "carbs": 0.229,
+        "fat": 0.005
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "black_chana",
+
+      "name": "Black Chickpeas",
+
+      "other_names": ["black chana", "kalo chana", "desi chickpeas", "black gram chickpeas", "कालो चना"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.64,
+        "protein": 0.089,
+        "carbs": 0.274,
+        "fat": 0.026
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "roasted_soybean",
+
+      "name": "Roasted Soybean",
+
+      "other_names": ["roasted soybean", "bhatmas sadheko", "bhuteko bhatmas", "roasted bhatmas", "भुटेको भटमास"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 4.46,
+        "protein": 0.366,
+        "carbs": 0.303,
+        "fat": 0.200
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "makai_bhujeko",
+
+      "name": "Roasted Corn",
+
+      "other_names": ["roasted corn", "roasted maize", "bhuteko makai", "bhuteko makai ko dana", "भुटेको मकै"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.65,
+        "protein": 0.095,
+        "carbs": 0.740,
+        "fat": 0.045
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "makai_pitho",
+
+      "name": "Corn Flour",
+
+      "other_names": ["corn flour", "maize flour", "makai ko pitho", "makaiko pitho", "मकैको पिठो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.61,
+        "protein": 0.076,
+        "carbs": 0.766,
+        "fat": 0.040
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "kodo_pitho",
+
+      "name": "Kodo Millet Flour",
+
+      "other_names": ["kodo pitho", "kodo flour", "finger millet flour", "ragi flour", "कोदोको पिठो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.28,
+        "protein": 0.073,
+        "carbs": 0.720,
+        "fat": 0.013
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "phapar_pitho",
+
+      "name": "Buckwheat Flour",
+
+      "other_names": ["phapar pitho", "buckwheat flour", "phapar ko pitho", "फापरको पिठो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.43,
+        "protein": 0.133,
+        "carbs": 0.710,
+        "fat": 0.034
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "sattu",
+
+      "name": "Sattu",
+
+      "other_names": ["sattu", "roasted gram flour", "chana sattu", "sattu ko pitho", "सत्तु", "सत्तुको पिठो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.87,
+        "protein": 0.220,
+        "carbs": 0.580,
+        "fat": 0.060
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "kheer",
+
+      "name": "Rice Kheer",
+
+      "other_names": ["kheer", "rice pudding", "dudh bhat", "payas", "खीर", "पायस"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.20,
+        "protein": 0.030,
+        "carbs": 0.170,
+        "fat": 0.045
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "haluwa",
+
+      "name": "Haluwa",
+
+      "other_names": ["haluwa", "halwa", "suji haluwa", "suji ko haluwa", "हलुवा", "हलवा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.20,
+        "protein": 0.045,
+        "carbs": 0.480,
+        "fat": 0.120
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "puri",
+
+      "name": "Puri",
+
+      "other_names": ["puri", "poori", "fried bread", "पुरी", "पूरी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.20,
+        "protein": 0.080,
+        "carbs": 0.480,
+        "fat": 0.120
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "samosa",
+
+      "name": "Samosa",
+
+      "other_names": ["samosa", "singada", "samosa tarkari", "समोसा", "सिंघाडा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.80,
+        "protein": 0.060,
+        "carbs": 0.300,
+        "fat": 0.160
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "pakoda",
+
+      "name": "Pakoda",
+
+      "other_names": ["pakoda", "pakora", "bhajiya", "vegetable pakoda", "पकौडा", "पकौरा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.70,
+        "protein": 0.070,
+        "carbs": 0.300,
+        "fat": 0.130
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "thukpa",
+
+      "name": "Thukpa",
+
+      "other_names": ["thukpa", "noodle soup", "thukpa soup", "थुक्पा"],
+
+      "veg_or_nonveg": "depends",
+
+      "nutrition_per_gram": {
+        "calories": 0.80,
+        "protein": 0.035,
+        "carbs": 0.110,
+        "fat": 0.025
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "depends",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "depends"
+      }
+
+    },
+
+    {
+      "id": "chowmein",
+
+      "name": "Chowmein",
+
+      "other_names": ["chowmein", "chow mein", "noodles", "veg chowmein", "चाउमिन"],
+
+      "veg_or_nonveg": "depends",
+
+      "nutrition_per_gram": {
+        "calories": 1.70,
+        "protein": 0.055,
+        "carbs": 0.230,
+        "fat": 0.060
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "depends",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "depends"
+      }
+
+    },
+
+    {
+      "id": "achar",
+
+      "name": "Nepali Achar",
+
+      "other_names": ["achar", "achaar", "pickle", "nepali pickle", "आचार", "अचार"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.80,
+        "protein": 0.015,
+        "carbs": 0.100,
+        "fat": 0.040
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "tomato_achar",
+
+      "name": "Tomato Achar",
+
+      "other_names": ["tomato achar", "golbheda achar", "tomato pickle", "गोलभेडाको अचार", "टमाटरको अचार"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.70,
+        "protein": 0.015,
+        "carbs": 0.090,
+        "fat": 0.030
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "mula_achar",
+
+      "name": "Radish Achar",
+
+      "other_names": ["mula achar", "radish pickle", "muli achar", "मूलाको अचार", "मुला अचार"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.50,
+        "protein": 0.010,
+        "carbs": 0.060,
+        "fat": 0.025
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "gundruk_jhol",
+
+      "name": "Gundruk Soup",
+
+      "other_names": ["gundruk ko jhol", "gundruk soup", "gundruk ko tarkari", "गुन्द्रुकको झोल", "गुन्द्रुकको तरकारी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.35,
+        "protein": 0.025,
+        "carbs": 0.050,
+        "fat": 0.010
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "aloo_tama",
+
+      "name": "Aloo Tama",
+
+      "other_names": ["aloo tama", "alu tama", "potato bamboo shoot curry", "आलु तामा", "आलू तामा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.70,
+        "protein": 0.018,
+        "carbs": 0.120,
+        "fat": 0.015
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "alu_saag",
+
+      "name": "Potato with Greens",
+
+      "other_names": ["alu saag", "aalu saag", "potato greens", "आलु साग", "आलुको साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.75,
+        "protein": 0.020,
+        "carbs": 0.130,
+        "fat": 0.015
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "bhatmas_sandheko",
+
+      "name": "Bhatmas Sandheko",
+
+      "other_names": ["bhatmas sandheko", "soybean salad", "soybean achar", "भटमास सन्देको", "भटमास साँधेको"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 3.20,
+        "protein": 0.250,
+        "carbs": 0.200,
+        "fat": 0.180
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "dahi_chiura",
+
+      "name": "Dahi Chiura",
+
+      "other_names": ["dahi chiura", "curd beaten rice", "curd and chiura", "दही चिउरा", "दही चिउरा"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.40,
+        "protein": 0.045,
+        "carbs": 0.250,
+        "fat": 0.025
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "dhido_kodo",
+
+      "name": "Kodo Dhido",
+
+      "other_names": ["kodo dhido", "kodo ko dhido", "millet dhido", "कोदो ढिँडो", "कोदोको ढिँडो"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 1.10,
+        "protein": 0.025,
+        "carbs": 0.230,
+        "fat": 0.010
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "phapar_roti",
+
+      "name": "Buckwheat Roti",
+
+      "other_names": ["phapar roti", "buckwheat roti", "phapar ko roti", "फापर रोटी", "फापरको रोटी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.70,
+        "protein": 0.090,
+        "carbs": 0.500,
+        "fat": 0.040
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "makai_roti",
+
+      "name": "Makai Roti",
+
+      "other_names": ["makai roti", "maize roti", "corn roti", "makaiko roti", "मकै रोटी", "मकैको रोटी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.40,
+        "protein": 0.060,
+        "carbs": 0.500,
+        "fat": 0.030
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    
+
+    {
+      "id": "bara",
+
+      "name": "Bara",
+
+      "other_names": ["bara", "baraa", "newari bara", "lentil pancake", "बारा", "बारा नेवारी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.00,
+        "protein": 0.090,
+        "carbs": 0.200,
+        "fat": 0.100
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "chatamari",
+
+      "name": "Chatamari",
+
+      "other_names": ["chatamari", "newari pizza", "rice crepe", "चतामरी", "चटामरी"],
+
+      "veg_or_nonveg": "depends",
+
+      "nutrition_per_gram": {
+        "calories": 2.00,
+        "protein": 0.070,
+        "carbs": 0.250,
+        "fat": 0.080
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "restricted",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "depends",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "depends"
+      }
+
+    },
+
+    {
+      "id": "yomari",
+
+      "name": "Yomari",
+
+      "other_names": ["yomari", "yo mari", "newari yomari", "योमरी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 2.50,
+        "protein": 0.050,
+        "carbs": 0.450,
+        "fat": 0.070
+      },
+
+      "fitness_direction": "gain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "restricted",
+        "teej": "restricted",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "karkalo",
+
+      "name": "Taro Leaves",
+
+      "other_names": ["karkalo", "taro leaves", "taro leaf", "कर्कलो", "कर्कलोको साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.42,
+        "protein": 0.043,
+        "carbs": 0.070,
+        "fat": 0.007
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "methi_saag",
+
+      "name": "Fenugreek Greens",
+
+      "other_names": ["methi saag", "fenugreek leaves", "fenugreek greens", "methi ko saag", "मेथी साग", "मेथीको साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.49,
+        "protein": 0.043,
+        "carbs": 0.060,
+        "fat": 0.009
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "bathua_saag",
+
+      "name": "Bathua Greens",
+
+      "other_names": ["bathua", "bathua saag", "chenopodium greens", "बथुवा", "बथुवा साग"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.43,
+        "protein": 0.044,
+        "carbs": 0.070,
+        "fat": 0.008
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "allowed",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "cauliflower_tarkari",
+
+      "name": "Cauliflower Tarkari",
+
+      "other_names": ["cauliflower tarkari", "kauli tarkari", "cauliflower sabji", "काउली तरकारी", "फूलकोबी तरकारी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.70,
+        "protein": 0.020,
+        "carbs": 0.080,
+        "fat": 0.030
+      },
+
+      "fitness_direction": "lose_weight",
+
+      "health_restrictions": {
+        "diabetes": "allowed",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    },
+
+    {
+      "id": "aloo_gobi",
+
+      "name": "Aloo Gobi",
+
+      "other_names": ["aloo gobi", "alu kauli", "potato cauliflower", "आलु काउली", "आलू गोभी"],
+
+      "veg_or_nonveg": "veg",
+
+      "nutrition_per_gram": {
+        "calories": 0.80,
+        "protein": 0.020,
+        "carbs": 0.120,
+        "fat": 0.025
+      },
+
+      "fitness_direction": "maintain_weight",
+
+      "health_restrictions": {
+        "diabetes": "restricted",
+        "uric_acid": "allowed",
+        "hypertension": "restricted",
+        "kidney_disease": "restricted"
+      },
+
+      "social_restrictions": {
+        "shrawan": "allowed",
+        "ekadashi": "allowed",
+        "teej": "allowed",
+        "mourning": "allowed"
+      }
+
+    }
+  ]
+}
