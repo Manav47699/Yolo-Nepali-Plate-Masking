@@ -1,0 +1,15 @@
+stuff I did to make the stuff besides yolo work out
+
+
+1-> for making the vector emeddings from the .json file
+
+```
+
+pip install langchain langchain-chroma langchain-huggingface sentence-transformers
+```
+
+2 -> test_vector_embedding.py
+
+```
+pip install rapidfuzz
+```
