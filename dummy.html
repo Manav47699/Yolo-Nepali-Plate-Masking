@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NutriNepal — Recommendation & Health Report (Mockup)</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+
+  :root{
+    --bg:#F5F1E8;
+    --card:#FFFFFF;
+    --ink:#1C1B18;
+    --muted:#7C7669;
+    --line:#E4DFD2;
+    --green:#1F3D2E;
+    --green-soft:#EAF0EA;
+    --amber:#B4622A;
+    --amber-soft:#FBEEE3;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:22px 48px;
+    border-bottom:1px solid var(--line);
+  }
+  .brand{
+    font-family:'Fraunces',serif;
+    font-size:22px;
+    font-weight:600;
+  }
+  .brand span{
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    letter-spacing:.12em;
+    color:var(--muted);
+    font-weight:500;
+    margin-left:8px;
+  }
+  .nav{display:flex;align-items:center;gap:32px;font-size:14px;color:var(--ink);}
+  .nav .logout{
+    background:var(--ink);color:#fff;padding:9px 18px;border-radius:6px;font-weight:500;
+  }
+
+  .wrap{max-width:920px;margin:0 auto;padding:56px 32px 100px;}
+
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    color:var(--muted);
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:40px;
+    margin:0 0 10px;
+  }
+  .sub{color:var(--muted);font-size:15px;margin-bottom:44px;max-width:560px;line-height:1.5;}
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:34px 36px;
+    margin-bottom:28px;
+  }
+  .card h2{
+    font-family:'Fraunces',serif;
+    font-size:21px;
+    font-weight:600;
+    margin:0 0 18px;
+  }
+  .label{
+    font-size:11px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--muted);
+    font-weight:600;
+    margin-bottom:14px;
+  }
+
+  /* meal list */
+  .meal-list{list-style:none;margin:0 0 22px;padding:0;}
+  .meal-list li{
+    display:flex;
+    justify-content:space-between;
+    padding:11px 0;
+    border-bottom:1px solid var(--line);
+    font-size:15px;
+  }
+  .meal-list li:last-child{border-bottom:none;}
+  .meal-list .qty{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:13px;}
+
+  .stat-row{
+    display:flex;
+    gap:16px;
+    margin:22px 0;
+    flex-wrap:wrap;
+  }
+  .stat{
+    flex:1;
+    min-width:150px;
+    background:var(--green-soft);
+    border-radius:8px;
+    padding:16px 18px;
+  }
+  .stat .n{
+    font-family:'Fraunces',serif;
+    font-size:24px;
+    font-weight:600;
+    color:var(--green);
+  }
+  .stat .l{font-size:12px;color:var(--muted);margin-top:2px;}
+
+  .pill{
+    display:inline-block;
+    background:var(--green);
+    color:#fff;
+    font-size:12px;
+    font-weight:500;
+    padding:5px 12px;
+    border-radius:20px;
+    margin-bottom:16px;
+  }
+
+  p.body-text{font-size:15px;line-height:1.65;margin:0 0 8px;}
+
+  .plan-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    margin-top:16px;
+  }
+  .plan-item{
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:12px 14px;
+    font-size:14px;
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .plan-item span.q{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px;white-space:nowrap;}
+
+  .note{
+    background:var(--amber-soft);
+    border:1px solid #EBD3BC;
+    border-radius:8px;
+    padding:18px 20px;
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+  }
+  .note .dot{
+    width:8px;height:8px;border-radius:50%;background:var(--amber);
+    margin-top:6px;flex-shrink:0;
+  }
+  .note p{margin:0;font-size:14.5px;line-height:1.6;color:#3a2f27;}
+
+  .divider{
+    border:none;border-top:1px solid var(--line);margin:44px 0 36px;
+  }
+
+  .placeholder-tag{
+    display:inline-block;
+    margin-top:36px;
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;
+    color:var(--muted);
+    letter-spacing:.06em;
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">NutriNepal <span>DIET &amp; FITNESS</span></div>
+  <div class="nav">
+    <div>Dashboard</div>
+    <div>Profile</div>
+    <div class="logout">Logout</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- Figure 4.4 -->
+  <div class="eyebrow">04 / Recommendation</div>
+  <h1>Your Daily Recommendation</h1>
+  <p class="sub">Based on today's logged meals and your fitness profile.</p>
+
+  <div class="card">
+    <span class="pill">Today's Summary</span>
+    <h2>Your day's meal looked like this</h2>
+    <ul class="meal-list">
+      <li><span>Rice</span><span class="qty">284.5 g</span></li>
+      <li><span>Dal</span><span class="qty">180 g</span></li>
+      <li><span>Spinach (Saag)</span><span class="qty">95 g</span></li>
+      <li><span>Potato Tarkari</span><span class="qty">120 g</span></li>
+      <li><span>Chicken</span><span class="qty">150 g</span></li>
+      <li><span>Tea</span><span class="qty">2 cups</span></li>
+    </ul>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="n">+340 kcal</div>
+        <div class="l">Calorie surplus</div>
+      </div>
+      <div class="stat">
+        <div class="n">Goal Met</div>
+        <div class="l">Protein target</div>
+      </div>
+    </div>
+
+    <p class="body-text">You're doing great on your mass gaining journey — you hit a calorie surplus of <strong>340 kcal</strong> today and completed your protein goal. Keep this consistency up.</p>
+
+    <div class="label" style="margin-top:26px;">Tomorrow's meal plan can include</div>
+    <div class="plan-grid">
+      <div class="plan-item"><span>Rice</span><span class="q">300 g</span></div>
+      <div class="plan-item"><span>Masu (Meat curry)</span><span class="q">180 g</span></div>
+      <div class="plan-item"><span>Dal</span><span class="q">200 g</span></div>
+      <div class="plan-item"><span>Gundruk</span><span class="q">60 g</span></div>
+      <div class="plan-item"><span>Sel Roti</span><span class="q">2 pcs</span></div>
+      <div class="plan-item"><span>Milk</span><span class="q">1 glass</span></div>
+    </div>
+  </div>
+
+  <span class="placeholder-tag">Figure 4.4 — Personalized Diet and Fitness Recommendation Result</span>
+
+  <hr class="divider">
+
+  <!-- Figure 4.5 -->
+  <div class="eyebrow">05 / Health Report</div>
+  <h1>Health Report</h1>
+  <p class="sub">A consolidated summary of your analyzed meals and personalized guidance.</p>
+
+  <div class="card">
+    <h2>Recommendation</h2>
+    <div class="note">
+      <div class="dot"></div>
+      <p>Though you did great covering your macros today, we'd suggest lowering your total fat consumption slightly to support faster fat loss and better body recomposition.</p>
+    </div>
+  </div>
+
+  <span class="placeholder-tag">Figure 4.5 — Health Report Generated by the System</span>
+
+</div>
+
+</body>
+</html>

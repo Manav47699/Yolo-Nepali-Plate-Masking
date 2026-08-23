@@ -1,0 +1,30 @@
+prompt for Nepali Lifestyle based diet and fitness recoomendation system.
+
+1) When a user registers, on /dashboard page there is a "complete your profile route", remove "target weight" from there. Also in the same page in "fitness goal" options, remove "Gain weight" keeping only 3 remaning. Also on dietary prefernce add egg only as well. make sure this change are not only in frontend and alo in the backend and applied to entire application
+
+2) In /profile route, apply the changes from 1) (make sure they are universal throughout the app.). in this same page, remove allergies completely. in medical conditions keep "health_restrictions": {
+    "diabetes": "allowed",
+    "uric_acid": "restricted",
+    "hypertension": "allowed",
+    "kidney_disease": "restricted"
+  },
+
+and in dietary restriction keep "social_restrictions": {
+    "shrawan": "restricted",
+    "chaturmas": "restricted",
+    "mourning": "restricted",
+    "no_onion_garlic": "allowed"
+  }
+}.
+
+these are what is in the dataset so make sure not to mess it up.
+
+
+3) in this http://localhost:5173/meals/new route, just remove the mean type [breakfast, luch etc] keep it simple with "please enter what you ate today" also make sure that uploading an image doesn't affect the text and viceversa. I think there is a problem currently, uploading an image clears all the text.
+
+4) in this recommendation page http://localhost:5173/meals/4, the ai recommendation is absolutely wrong. rewrite the pipeline such that all the data first goes through a hardcoded logic that will organize all the information and produce aggregate measures. then ai is only used to take that input and just give out proper small sentences. as we have all the total nutrients and micro nutrients and all in the final page, we will use very scientific measures to calcuate and draw out proper conclusions. like take the useer age, gender and fitness goal, then use perper metrics to check which nutirent has achived the goal and which is lacking. then from the database, suggest food items that the user generally eats (you can use users past food data to see what they generally eat). if it is users first entry, just suggest something generic like dal bhat and chicken (if the user entered their dietary prefence as non-veg, else other high protein veg stuff from the database (master_database.json).
+
+
+
+the system is working rightnow, we are just changing a few things and trying to make it better, so what ever you do, make sure the app doesn't break, it must work exactly like it is now with the same set of commands for frontend, backend and fastapi
+
